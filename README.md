@@ -36,6 +36,8 @@ This project demonstrates the practical application of Computer Vision and Deep 
 * Haar Cascade Classifier
 
 ---
+### Note
+This project uses a pre-trained CNN model for emotion recognition. The dataset is not included in this repository due to GitHub size limitations.
 
 ## 📂 Project Structure
 
