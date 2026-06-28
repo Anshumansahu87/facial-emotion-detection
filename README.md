@@ -1,15 +1,15 @@
 # 🎯 Facial Emotion Detection System
 
 ## 📌 Overview
-Real-time AI-based facial emotion detection system using Deep Learning and OpenCV.
+This project is a real-time facial emotion detection system using Deep Learning and OpenCV. It detects human emotions through webcam input.
 
 ---
 
 ## 🚀 Features
 - Real-time face detection using webcam
-- CNN-based emotion classification
-- Detects emotions like Happy, Sad, Angry, Neutral
-- Fast and lightweight model
+- CNN-based emotion recognition model
+- Detects emotions like Happy, Sad, Angry, Neutral, Surprise
+- Fast and lightweight AI model
 
 ---
 
@@ -18,12 +18,32 @@ Python, TensorFlow, Keras, OpenCV, NumPy
 
 ---
 
+## 📂 Project Structure
+- detect.py → Real-time detection script  
+- train.py → Model training script  
+- emotion_model.h5 → Trained CNN model  
+- haarcascade_frontalface_default.xml → Face detection file  
+
+---
+
 ## ▶️ How to Run
-pip install tensorflow opencv-python numpy
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run project
 python detect.py
 
 ---
 
-## 📂 Status
-✔ Project successfully running in VS Code  
-✔ Real-time webcam detection working  
+## 🎥 Output
+- Opens webcam
+- Detects face
+- Shows emotion in real-time
+
+---
+
+## 💡 Future Improvements
+- Improve model accuracy
+- Add more emotion classes
+- Deploy as web app using Flask/Streamlit
